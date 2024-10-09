@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20%,50%,30%;
+}
+.griditems{
+    border:5px solid yellow;
+}
+.Navbar,.Image,.Footer,.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center  ;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
